@@ -79,11 +79,11 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
+<style  scoped>
 .imagen-navbar {
   height: 50vh;
   background-size: cover;
-  background-image: url("/assets/brand/bannerNavbar.png");
+  background-image: url("~/assets/brand/bannerNavbar.png");
 }
 .hr-auto {
   max-width: calc(76vw);

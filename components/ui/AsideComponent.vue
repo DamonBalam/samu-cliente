@@ -1,9 +1,9 @@
 <template>
   <aside class="w-1/5">
     <div class="bg-cyan">
-      <router-link to="/control-panel" class="mx-auto">
+      <router-link to="/control-panel/panel" class="mx-auto">
         <img
-          src="/assets/brand/logo.png"
+          src="~/assets/brand/logo.png"
           class="logo mx-auto"
           alt="Logo Samu"
         />
@@ -58,7 +58,7 @@
       >
         <!-- :class="{ animate__fadeOut: !isActive, animate__fadeIn: isActive }" -->
         <router-link
-          to="/control-panel/configuracion/general"
+          to="/control-panel/configuracion/general/perfil-tienda"
           active-class="active-item"
           class="block bg-gray-200 texto-cairo-semi-bold cursor-pointer nav-item py-2 px-6"
           >General</router-link
@@ -134,7 +134,6 @@ export default {
 };
 </script>
 <style scoped>
-
 .aside {
   display: none;
 }

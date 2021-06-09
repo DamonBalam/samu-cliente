@@ -61,7 +61,7 @@ import AlertComponent from "~/components/ui/AlertComponent.vue";
 import SpinComponent from "~/components/ui/SpinComponent.vue";
 export default {
   name: "RegistroPage",
-  middleware: "auth",
+  // middleware: "auth",
   components: { AuthLayout, SpinComponent, AlertComponent },
   data() {
     return {

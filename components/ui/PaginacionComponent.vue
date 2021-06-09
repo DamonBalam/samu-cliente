@@ -20,7 +20,7 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
+<style  scoped>
 ul.pagination {
   display: inline-block;
   padding: 0;
